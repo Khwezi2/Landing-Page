@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 .secondSection{
-    padding: 20px;
+    padding: 10px;
     background-color: white;
     display: flex;
     align-items: center;
@@ -91,9 +91,31 @@
     text-decoration: none;
 }
 h3{
+    margin-left: 20px;
+    text-align: left;
     font-size: 20px;
+    padding-top: 20px;
 }
 h1{
-    font-size: 36px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 40px;
+    padding-top: 290px;
 }
-
+.btnShop{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    /* margin-left: 20px;
+    text-align: left; */
+}
+.btnShop button{
+    margin-right: 100px;
+}
+.btnShop:hover{
+    color: black;
+    background-color: whitesmoke;
+}
