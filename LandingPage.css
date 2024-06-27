@@ -107,15 +107,75 @@ h1{
     background-color: white;
     border: 1px solid black;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 19px;
     font-size: 15px;
     /* margin-left: 20px;
     text-align: left; */
-}
-.btnShop button{
-    margin-right: 100px;
+    margin-top: 10px;
+    margin-right: 1350px;
 }
 .btnShop:hover{
     color: black;
-    background-color: whitesmoke;
+    background-color: rgb(212, 211, 211);
+    cursor: pointer;
 }
+h2{
+    margin-top: 45px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.pictures{
+    display: flex;
+    width: 95%;
+    height: 550px;
+    gap: 1em;
+    margin-left: 50px;
+}
+.collections{
+    margin-top: 20px;
+    display: flex;
+    gap: 18em;
+    margin-left: 48px;
+}
+.Collection{
+    margin-left: 30px;
+}
+.Sneakers{
+    margin-left: 50px;
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    height: 220px;
+    gap: 1em;
+}
+.Category{
+    margin-top: 40px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.Footer{
+    padding: 20px;
+    margin-left: 50px;
+}
+.footerLinks a{
+    text-decoration: none;
+    color: black;
+    gap: 7em;
+}
+.footerLinks a:hover{
+    color: gray;
+    cursor: pointer;
+}
+/* .sneakerBtn button{
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    gap: 7em;
+    justify-content: space-between;
+}
+.airmax{
+    margin-bottom: 10px;
+} */
